@@ -8,7 +8,7 @@ import Nfts from '../pages/NFTs/Nfts'
 const CreateRoutes = () => (
     <Routes>
       <Route  path="/" element={<Home/>} />
-      <Route  path="contact" element={<Nfts/>} />
+      <Route  path="nft" element={<Nfts/>} />
     </Routes>
 );
 
