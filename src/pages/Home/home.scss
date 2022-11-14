@@ -1,0 +1,16 @@
+.home{
+   
+    section{
+        .logo__list{
+            display: flex;
+            padding: 1% 10%;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            grid-auto-rows: 60px;
+            justify-content: space-between;
+            background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+            img{
+                height: 2.5rem;
+            }
+        }
+    }
+}

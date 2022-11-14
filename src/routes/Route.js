@@ -1,13 +1,14 @@
 import React from "react";
 import { Routes, Route} from "react-router-dom";
-import Contact from '../pages/contact/Contact'
-import Home from '../pages/home/Home'
+import Home from '../pages/Home/Home'
+import Nfts from '../pages/NFTs/Nfts'
+
 
 
 const CreateRoutes = () => (
     <Routes>
-      <Route  path="/" element={<Home />} />
-      <Route  path="contact" element={<Contact/>} />
+      <Route  path="/" element={<Home/>} />
+      <Route  path="contact" element={<Nfts/>} />
     </Routes>
 );
 
